@@ -19,6 +19,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
         curl \
         git \
         libc-client2007e \
+        libmcrypt4 \
         libpcre3 \
         librecode0 \
         libsqlite3-0 \
@@ -38,6 +39,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
         g++ \
         gcc \
         libc-dev \
+        libmcrypt-dev \
         make \
         pkg-config \
         re2c \
@@ -85,6 +87,7 @@ RUN buildDeps=" \
         --with-imap-ssl \
         --with-jpeg-dir=/usr/lib \
         --with-kerberos \
+        --with-mcrypt \
         --with-openssl \
         --with-pdo-mysql=mysqlnd \
         --with-mysql-sock=/var/run/mysqld/mysqld.sock \
