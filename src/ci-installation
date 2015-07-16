@@ -63,6 +63,7 @@ RUN buildDeps=" \
     && cd /usr/src/php \
     && ./configure \
         --disable-cgi \
+        --enable-bcmath \
         --enable-libxml \
         --enable-mysqlnd \
         --enable-mbstring \
