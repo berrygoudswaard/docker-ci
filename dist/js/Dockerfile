@@ -4,6 +4,7 @@ MAINTAINER Berry Goudswaard <info@berrygoudswaard.nl>
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
+        git-core \
         libfontconfig \
         libfreetype6 \
         nodejs \
