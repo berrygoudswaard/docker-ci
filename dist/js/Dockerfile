@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER Berry Goudswaard <info@berrygoudswaard.nl>
+MAINTAINER Berry Goudswaard <info@noregression.nl>
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \

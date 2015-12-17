@@ -132,7 +132,7 @@ RUN apt-get update \
         phpunit/phpunit \
         sebastian/phpcpd \
         squizlabs/php_codesniffer \
-        berrygoudswaard/coverage-reporter
+        noregression/coverage-reporter
 
 WORKDIR $HOME/project
 

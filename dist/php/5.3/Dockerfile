@@ -1,6 +1,6 @@
 FROM debian:wheezy
 
-MAINTAINER Berry Goudswaard <info@berrygoudswaard.nl>
+MAINTAINER Berry Goudswaard <info@noregression.nl>
 
 ENV EXTRA_DEPS "libmagickwand5"
 ENV PHP_VERSION 5.3.29
@@ -143,7 +143,7 @@ RUN apt-get update \
         phpunit/phpunit \
         sebastian/phpcpd \
         squizlabs/php_codesniffer \
-        berrygoudswaard/coverage-reporter
+        noregression/coverage-reporter
 
 WORKDIR $HOME/project
 

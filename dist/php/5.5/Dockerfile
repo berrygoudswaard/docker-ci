@@ -1,6 +1,6 @@
 FROM debian:jessie
 
-MAINTAINER Berry Goudswaard <info@berrygoudswaard.nl>
+MAINTAINER Berry Goudswaard <info@noregression.nl>
 
 ENV EXTRA_DEPS "libjpeg62 libicu52 libmagickwand-6.q16-2"
 ENV PHP_VERSION 5.5.24
@@ -143,7 +143,7 @@ RUN apt-get update \
         phpunit/phpunit \
         sebastian/phpcpd \
         squizlabs/php_codesniffer \
-        berrygoudswaard/coverage-reporter
+        noregression/coverage-reporter
 
 WORKDIR $HOME/project
 
