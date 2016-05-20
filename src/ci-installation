@@ -15,6 +15,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
         libxml2 \
         mysql-server \
         ssh-client \
+        rsync \
         $EXTRA_DEPS \
         --no-install-recommends \
      && rm -r /var/lib/apt/lists/*
